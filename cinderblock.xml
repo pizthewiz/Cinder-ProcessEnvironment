@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+    name="Process Environment"
+    id="com.chordedconstructions.fleshworld.cinder-processenvironment"
+    git="https://github.com/pizthewiz/Cinder-ProcessEnvironment.git"
+    author="Jean-Pierre Mouilleseaux"
+    summary="Access to the application process ENV"
+    url="https://github.com/pizthewiz/Cinder-ProcessEnvironment"
+    >
+    <supports os="macosx" />
+    <header>include/Cinder-ProcessEnvironment.h</header>
+    <source>src/Cinder-ProcessEnvironment.mm</source>
+</block>
+</cinder>
