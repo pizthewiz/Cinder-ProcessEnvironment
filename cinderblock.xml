@@ -5,7 +5,7 @@
     id="com.chordedconstructions.fleshworld.cinder-processenvironment"
     git="https://github.com/pizthewiz/Cinder-ProcessEnvironment.git"
     author="Jean-Pierre Mouilleseaux"
-    summary="Access to the application process ENV"
+    summary="Access to the process environment"
     url="https://github.com/pizthewiz/Cinder-ProcessEnvironment"
     >
     <supports os="macosx" />
