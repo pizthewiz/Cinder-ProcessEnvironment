@@ -5,7 +5,7 @@
 ```C++
 void DisplayApp::setup() {
   // enable file logging if the ENV variable XCODE is not defined
-  map<string, string> env = Cinder::ProcessEnvironment::Get();
+  map<string, string> env = Cinder::ProcessEnvironment::GetEnvironment();
   if (env.count("XCODE") == 0) {
     fs::path filePath = expandPath("~/Desktop/Display.log");
     log::manager()->enableFileLogging(filePath);

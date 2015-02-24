@@ -16,6 +16,6 @@
 
 namespace Cinder { namespace ProcessEnvironment {
 
-std::map<std::string, std::string> Get();
+std::map<std::string, std::string> GetEnvironment();
 
 }}

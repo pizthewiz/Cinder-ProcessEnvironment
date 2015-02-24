@@ -11,7 +11,7 @@
 
 namespace Cinder { namespace ProcessEnvironment {
 
-std::map<std::string, std::string> Get() {
+std::map<std::string, std::string> GetEnvironment() {
     __block std::map<std::string, std::string> result;
     NSDictionary* environment = [[NSProcessInfo processInfo] environment];
     [environment enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL* stop) {
