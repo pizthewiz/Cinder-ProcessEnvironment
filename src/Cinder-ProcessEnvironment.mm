@@ -8,6 +8,9 @@
 
 #import "Cinder-ProcessEnvironment.h"
 #include "cinder/cocoa/CinderCocoa.h"
+#if defined(__OBJC__)
+    #import <Cocoa/Cocoa.h>
+#endif
 
 namespace Cinder { namespace ProcessEnvironment {
 
